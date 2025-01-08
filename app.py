@@ -3,7 +3,7 @@ import streamlit as st
 
 #membaca Model
 
-diabetes_model = pickle.load(('diebetes_model_naive_bayes.sav', 'rb'))
+diabetes_model = pickle.load(open('diebetes_model_naive_bayes.sav', 'rb'))
 
 #judul web
 
